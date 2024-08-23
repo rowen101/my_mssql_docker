@@ -1,0 +1,1 @@
+Note: Create db and backup folder on this directory!
