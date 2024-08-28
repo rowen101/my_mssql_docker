@@ -16,7 +16,10 @@ https://hub.docker.com/_/microsoft-mssql-server
 * Make our product secure,functional and user-friendly while ensuring a strong and healthy team relationship.
 * Respond and be available to answer the questions and needs of the members when required.
 * Users and customers must be attended with utmost respect and consideration.
-## Ducker build the project command
+## Docker build the project command
 * docker-compose up --build -d
 ## Docker show the container
 * docker-compose ps //to show what docker app running if show (exist-1) the file not running
+## Docker run auto restart
+* docker run -d --restart always myimage:latest
+
