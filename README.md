@@ -22,4 +22,7 @@ https://hub.docker.com/_/microsoft-mssql-server
 * docker-compose ps //to show what docker app running if show (exist-1) the file not running
 ## Docker run auto restart
 * docker run -d --restart always myimage:latest
+## if you run on linux docker change path to 
+* - "/home/username/MSSQL_SERVER/mssql_backup:/var/opt/mssql/backup"
+* - "/home/username/MSSQL_SERVER/mssql:/var/opt/mssql/data"
 
